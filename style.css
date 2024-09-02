@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    color: aliceblue;
+    text-align: center;
+} 
+.header{
+    padding: 20px; 
+    height: auto;
+    display: flexbox;
+}
+body{
+    background-image: url(pics/background.jpg);
+}
+
+.footer{
+    
+    padding: 20px; 
+    height: auto;
+}
+
+.header-title{
+    top: 15px;
+    left: 5px;
+    float: left;
+    
+}
+
+.header-nav{
+    padding: 5px 0;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(119, 67, 7,0.5);
+    border: 10px;
+    overflow: hidden;
+    
+}
+
+.header-nav a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+
+}
+
+.header-nav a img{
+    border-radius: 15px;
+}
+
+.header-nav a:hover{
+    text-decoration: underline;
+}
+
+
+.secondry-title{
+    clear: both;
+}
+
+.texts {
+    display: flex;
+    flex-direction:column   ;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between; 
+    background-color:rgba(119, 67, 7,0.5) ;
+    align-content:flex-start;
+    border-radius: 10px;
+}
+.floatleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* le style de la table du menu*/
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    background-color:rgba(18, 76, 29, 0.5) ;
+    border-radius: 15px;
+}
+
+/* Le style de la page contact */
+
+.address{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    background-color: rgba(18, 76, 29, 0.5) ;
+    margin: 50px;
+}
+.address iframe{
+    display: flex;
+  justify-content: center; /* Centre l'iframe horizontalement */
+  align-items: center; /* Centre l'iframe verticalement */
+  width: 800px; /* Assure que le conteneur prend toute la largeur */
+  height: 250px; /* Assure que le conteneur prend toute la hauteur */
+  margin-left: 100px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    background-color: rgba(119, 67, 7,0.5) ;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.main1 form div{
+    padding: 5px;
+}
+input{ 
+    color: black;
+    font-size: 20px;
+}
